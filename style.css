@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Pattaya&display=swap');
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E7C7C7;
+    align-items: center;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    
+}
+a {
+    color: black;
+    font-family: "Cormorant Infant", serif;
+}
+h1 {
+    font-family: "Pattaya", serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+.recipe {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 15px;
+}
+.ingredients {
+    margin: 10px 0;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+}
+.tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.aside {
+    width: 300px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 27px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+button {
+    font-size: 25px;
+    color: #0126DE;
+    background-color: none ;
+    border: 2px solid #0126DE;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.hiw {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.images>img {
+    width: 100%;
+}
+.image {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.images {
+    width: 400px;
+}
+
+.better {
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.better__img {
+    width: 100%;
+}
+
+.bread {
+    width: 80% ;
+}
+
+
+@media( max-width: 1000px ) {
+    .tablet {
+        flex-wrap: wrap;
+    }
+}
+@media( max-width: 800px ) {
+    .image {
+        flex-wrap: wrap;
+    }
+    .images {
+        width: 250px;
+    }
+}
+@media( max-width: 450px ) {
+    .better {
+        width: 300px ;
+    }
+}
+@media( max-width: 400px ) {
+    nav {
+        flex-direction: column;
+    }
+}
