@@ -122,6 +122,22 @@ button {
         width: 250px;
     }
 }
+@media( max-width: 550px ) {
+    .freshlybaked {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .widget {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
 @media( max-width: 450px ) {
     .better {
         width: 300px ;
