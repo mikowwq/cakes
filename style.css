@@ -92,12 +92,43 @@ button {
     width: 400px;
 }
 
+.widget {
+    display: flex;            
+    justify-content: space-around; 
+    align-items: flex-start;   
+    flex-wrap: wrap;            
+}
+
 .better {
-    width: 400px;
+    width: 300px;
     text-align: center;
     border: 1px solid black;
     padding: 5px;
     border-radius: 15px;
+}
+
+.planet {
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.simple {
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.simple__png {
+    width: 100%;
+}
+
+.planet__png {
+    width: 100%;
 }
 
 .better__img {
@@ -105,7 +136,26 @@ button {
 }
 
 .bread {
-    width: 80% ;
+    width: 40% ;
+    margin-right: 20px;
+}
+
+.freshlybaked {
+    display: flex;
+    align-items: flex-start; 
+    font-size: 50px;
+}
+.text-container {
+    display: flex;
+    flex-direction: column; 
+}
+.btn2 { 
+    font-size: 25px;
+    color: #0126DE;
+    background-color: none ;
+    border: 2px solid #0126DE;
+    padding: 20px;
+    border-radius: 50px;
 }
 
 
